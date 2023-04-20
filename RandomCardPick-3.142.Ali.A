@@ -1,0 +1,51 @@
+import random
+
+card_values = [ 'A', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
+suit = ['Spades', 'Clubs', 'Diamonds', 'Hearts']
+
+def pick5cards():
+    count = 0
+    while count < 5:
+        randomvalue = card_values[random.randint(0,12)]
+        randomSuits = suit[random.randint(0,3)]
+        print('You hav + ' of ' + randomSuits )
+        count+=1 
+
+pick5cards()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+x_stage1 = 123
+y_stage2 = 456
+
+
+x_stage2 = str(x_stage1)
+y_stage2 = str(y_stage1)
+print(x)
