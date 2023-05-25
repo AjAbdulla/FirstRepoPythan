@@ -1,17 +1,16 @@
-Tic_Tac_Toe_List = ["1","2","3","4","5","6","7","8","9"]
+tic_tac_toe_List = ["1", "2", "3", "4", "5", "6", "7", "8", "9"] 
 
-turn = 0 
+turn = 0
 while turn < 9:
-    print(Tic_Tac_Toe_List[0] + '|'+ Tic_Tac_Toe_List[1] + '|' + Tic_Tac_Toe_List[2] + '|' )
-    print('-------------')
-    print(Tic_Tac_Toe_List[3] + '|'+ Tic_Tac_Toe_List[4] + '|' + Tic_Tac_Toe_List[5] + '|' )
-    print('-------------')
-    print(Tic_Tac_Toe_List[6] + '|'+ Tic_Tac_Toe_List[7] + '|' + Tic_Tac_Toe_List[8] + '|' )
-    print('-------------')
+    print( tic_tac_toe_List[0] + '|' + tic_tac_toe_List[1] + '|' + tic_tac_toe_List[2])
+    print('-------')
+    print( tic_tac_toe_List[3] + '|' + tic_tac_toe_List[4] + '|' + tic_tac_toe_List[5])
+    print('-------')
+    print( tic_tac_toe_List[6] + '|' + tic_tac_toe_List[7] + '|' + tic_tac_toe_List[8])
+    
+    userturn = input("Enter a number Between 0-8 to Mark the index postition for your Turn")
+    numconverter = int(userturn)
 
-    userTurn = input ('enter a number between 0-8 to mark index position for your turn')
-    NumCoventer = int(userTurn)
-    print('_____________')
-    Tic_Tac_Toe_List.insert(NumCoventer, 'X')
 
-turn+= 1
+    tic_tac_toe_List.insert(numconverter, 'X')
+    turn += 1
