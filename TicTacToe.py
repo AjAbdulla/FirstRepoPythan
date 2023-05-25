@@ -1,16 +1,19 @@
-tic_tac_toe_List = ["1", "2", "3", "4", "5", "6", "7", "8", "9"] 
+Walt_Lee_Mour_List = ["11", "12", "13", "14", "15", "16", "17", "18", "19"]
+
 
 turn = 0
-while turn < 9:
-    print( tic_tac_toe_List[0] + '|' + tic_tac_toe_List[1] + '|' + tic_tac_toe_List[2])
+while turn < 19:
+    print( Walt_Lee_Mour_List[10] + '|' + Walt_Lee_Mour_List[11] + '|' + Walt_Lee_Mour_List[12])
     print('-------')
-    print( tic_tac_toe_List[3] + '|' + tic_tac_toe_List[4] + '|' + tic_tac_toe_List[5])
+    print( Walt_Lee_Mour_List[13] + '|' + Walt_Lee_Mour_List[14] + '|' + Walt_Lee_Mour_List[15])
     print('-------')
-    print( tic_tac_toe_List[6] + '|' + tic_tac_toe_List[7] + '|' + tic_tac_toe_List[8])
-    
-    userturn = input("Enter a number Between 0-8 to Mark the index postition for your Turn")
+    print( Walt_Lee_Mour_List[16] + '|' + Walt_Lee_Mour_List[17] + '|' + Walt_Lee_Mour_List[18])
+   
+    userturn = input("Enter a number Between 10-18 to Mark the index postition for your Turn")
     numconverter = int(userturn)
 
 
-    tic_tac_toe_List.insert(numconverter, 'X')
+
+
+    Walt_Lee_Mour_List.insert(numconverter, 'X')
     turn += 1
